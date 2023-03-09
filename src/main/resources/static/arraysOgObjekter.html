@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>const person = {
+    navn : "Line Jensen",
+    adresse : "Askerveien"
+  };
+  const etArray=[];
+  etArray.push(1);
+  etArray.push("Hei");
+  etArray.push(person);
+
+
+  let kundene = [];
+  const kunde1 = {
+    navn : "Per Hansen",
+    adresse : "Osloveien 82"
+  };
+  kundene[0]= kunde1;
+  const kunde2 = {
+    navn : "Lene Jensen",
+    adresse : "Askerveien 82"
+  };
+  kundene.push(kunde2);
+  for(let i in kundene) {
+    document.write(kundene[i].navn+" "+kundene[i].adresse+"<br/>");
+
+  }</script>
+</head>
+<body>
+
+</body>
+</html>
